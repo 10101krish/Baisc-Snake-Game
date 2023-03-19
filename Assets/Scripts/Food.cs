@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Food : MonoBehaviour
@@ -60,5 +59,6 @@ public class Food : MonoBehaviour
     {
         if (other.tag == "Player")
             RandomizePosition();
+        Debug.Log("Hello");
     }
 }
